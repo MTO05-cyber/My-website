@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Mohamed Tawfek Ouahabi</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="MTO Logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro">Neem <span class="highlight">Contact</span> op</div>
+
+      <section class="about">
+        <h2>Stuur me een bericht</h2>
+        <p>
+          Heb je vragen over mijn werk of wil je gewoon hallo zeggen? Vul het
+          formulier hieronder in en ik neem zo snel mogelijk contact met je op!
+        </p>
+
+        <form
+          action="mailto:mto@example.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <label for="naam">Naam:</label>
+          <input type="text" id="naam" name="naam" required />
+
+          <label for="email">E-mailadres:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="bericht">Bericht:</label>
+          <textarea id="bericht" name="bericht" rows="6" required></textarea>
+
+          <button type="submit">Verstuur</button>
+        </form>
+      </section>
+    
+    <div id="map" style="height: 400px; margin-top: 2rem;" class="fade-in"></div>
+    </main>
+    
+
+    <footer>
+      &copy; 2025 Mohamed Tawfek Ouahabi. Alle rechten voorbehouden.
+    </footer>
+  
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+    </body>
+    
+</html>
