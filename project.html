@@ -9,7 +9,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project: Smart Home Systeem</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -23,20 +22,26 @@
     </header>
 
     <main>
-      <h1 class="intro">Smart <span class="highlight">Home</span> Systeem</h1>
-      <section class="about">
-        <p>
-          Dit project demonstreert mijn kennis van IoT en netwerken. Met behulp
-          van een Raspberry Pi, DHT22-sensoren en Node-RED heb ik een basic
-          smart home omgeving gecreëerd. Alle gegevens worden live weergegeven
-          op een online dashboard.
-        </p>
-        <p>Skills: MQTT, Node-RED, Python, Dashboard UI, Netwerkconfiguratie</p>
+      <div class="project-header">
+        <h1 class="intro" id="project-title">Project Titel</h1>
+      </div>
+
+      <section class="project-content">
+        <p id="project-description"></p>
+
+        <h3 class="skills-title">Gebruikte Skills:</h3>
+        <ul id="project-skills" class="skills-list"></ul>
       </section>
+
+      <a href="portfolio.html" class="btn btn-primary mt-4"
+        >← Terug naar Portfolio</a
+      >
     </main>
 
     <footer>
       &copy; 2025 Mohamed Tawfek Ouahabi. Alle rechten voorbehouden.
     </footer>
+
+    <script src="js/script3.js"></script>
   </body>
 </html>
